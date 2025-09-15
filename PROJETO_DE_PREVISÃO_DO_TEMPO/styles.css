@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.em.com.br/emfoco/wp-content/uploads/2025/04/Clima-sol-ou-chuva_1745256516839.jpg");
+}
+
+.caixa-grande {
+  background-color: black;
+  opacity: 0.9;
+  border-radius: 28px;
+  padding: 55px;
+  width: 95%;
+  max-width: 450px;
+  margin-top: 10px;
+}
+
+.input {
+  outline: none;
+  padding: 10px;
+  border-radius: 25px;
+  font: size 20px;
+  background-color: #7c7c7c2b;
+  color: #ffff;
+  width: calc(80%);
+}
+
+.botao-buscar {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  white-space-collapse: 15px;
+  float: right;
+  cursor: pointer;
+}
+
+.img-botao {
+  width: 25px;
+}
+
+.cidade {
+  color: white;
+  font-size: 30px;
+}
+
+.caixa-textos {
+  margin-top: 20px;
+}
+
+.temp {
+  margin-top: 15px;
+  color: #ffff;
+}
+
+.ultima-caixa {
+  display: flex;
+  align-items: center;
+  color: #ffff;
+}
+
+.umidade-text {
+  color: #ffff;
+  margin-top: 20px;
+  justify-content: center;
+}
