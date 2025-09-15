@@ -4,20 +4,22 @@
   box-sizing: border-box;
 
   font-family: "Open Sans", sans-serif;
-}
+} 
 
-body {
-  height: 100vh;
+body{
+height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("https://www.em.com.br/emfoco/wp-content/uploads/2025/04/Clima-sol-ou-chuva_1745256516839.jpg");
-}
+  background-image: url("https://tvcidadelimeira.com.br/wp-content/uploads/2025/05/previsao-tempo-marataizes-1.jpg");
+  background-repeat: no-repeat;      /* evita repetição */
+  background-size: cover;            /* preenche a tela inteira */
+  background-position: center;}
 
 .caixa-grande {
   background-color: black;
-  opacity: 0.9;
+  opacity: 0.8;
   border-radius: 28px;
   padding: 55px;
   width: 95%;
